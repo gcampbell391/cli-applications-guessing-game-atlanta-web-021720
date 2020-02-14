@@ -9,7 +9,7 @@ def run_guessing_game
  else
    pp input
    pp computer_number
-  puts "Sorry! The computer guessed #{computer_number}."
+  puts "Sorry! The computer guessed #{computer_number + 1}."
   
 end
 
