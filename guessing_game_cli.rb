@@ -5,7 +5,7 @@ def run_guessing_game
  if input == "exit"
    puts "Goodbye!"
  elsif input == computer_number
- puts "You guessed the correct number!"
+  return "You guessed the correct number!"
  binding.pry
  else
   puts "Sorry! The computer guessed #{computer_number + 1}."
