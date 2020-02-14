@@ -6,10 +6,12 @@ def run_guessing_game
    puts "Goodbye!"
  elsif input == computer_number
  puts "You guessed the correct number!"
+ binding.pry
  else
   puts "Sorry! The computer guessed #{computer_number + 1}."
+  
 end
-binding.pry
+
 end 
 
 
