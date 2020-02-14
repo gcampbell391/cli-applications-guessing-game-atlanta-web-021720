@@ -3,10 +3,10 @@ def run_guessing_game
  computer_number = rand(1...6)
  if input == "exit"
    puts "Goodbye!"
- elsif input != computer_number
+ elsif input == computer_number
+ puts "You guessed the correct number!"
+ else
   puts "Sorry! The computer guessed #{computer_number}."
-else 
-  puts"You guess the correct number!"
 end 
 end 
 
